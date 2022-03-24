@@ -2,7 +2,6 @@
 pragma solidity >=0.5.0;
 
 import "./BitMath.sol";
-import "hardhat/console.sol";
 
 /// @title Packed tick initialized state library
 /// @notice Stores a packed mapping of tick index to its initialized state
