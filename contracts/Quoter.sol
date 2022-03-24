@@ -17,7 +17,6 @@ import "./libraries/SafeCast.sol";
 import "./libraries/TickBitmap.sol";
 import "./libraries/SqrtPriceMath.sol";
 import './UniswapV3Quoter.sol';
-import "hardhat/console.sol";
 
 contract Quoter is IQuoter, UniswapV3Quoter {
     using SafeERC20 for IERC20;
